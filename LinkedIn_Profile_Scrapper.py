@@ -14,8 +14,8 @@ username.send_keys("prathyusharejeti@gmail.com")
 
 password = driver.find_element_by_id('session_password')
 
-# Enter your Password
-password.send_keys("Upendra@2006")
+# Enter your Password in place of '####'
+password.send_keys("####")
 
 log_in_button = driver.find_element_by_class_name('sign-in-form__submit-button')
 
